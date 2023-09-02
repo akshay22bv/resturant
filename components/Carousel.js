@@ -62,10 +62,10 @@ const Carousel = () => {
         {Carouseldata.map((item, i) => {
           return (
             <motion.div
-              variants={fadeIn("up", 0.2 * i)}
+              variants={fadeIn("up", 0.2)}
               initial="hidden"
               whileInView={"show"}
-              viewport={{ once: true, amount: 0.2 * i }}
+              viewport={{ once: true, amount: 0.2 }}
               className={`flex items-center gap-2 justify-between text-center  ${
                 i % 2 === 0 && "flex-row-reverse"
               }`}
