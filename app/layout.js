@@ -1,4 +1,4 @@
-"use client";
+// "use client";
 import Footer from "./common/Footer";
 import Navbar from "./common/Navbar";
 import "./globals.css";
